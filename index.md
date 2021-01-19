@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 	<head>
 		<h1>Minecraft (bedrock) addon website</h1>
