@@ -4,7 +4,7 @@
 		<img src="titleImage.png">
 		<br>
 	</head>
-	<body>
+	<body onload="mainMenu()">
 	</body>
 	
 	<script>
