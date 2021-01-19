@@ -19,19 +19,19 @@
 			document.write('<img src="firstAddonImage.jpg">' + 'Guns Addon free no virus' + '          ' + '<button type ="button" onclick="anyAddonClickResponse()">Click here to download now</button>');
 		}
 		function secondAddonReponse(){
-			document.write('<img src="secondAddonImage.jpg">' + 'Minecraft BUT EVERYTHING IS DIRT NOW Addon free no virus' + '          ' + '<button type ="button" onclick="anyAddonClickResponse()">Click here to download now</button>');
+			document.write('<img src="secondAddonImage.jpg">' + 'Minecraft BUT EVERYTHING IS DIRT NOW Addon free no virus' + '<button type ="button" onclick="anyAddonClickResponse()">Click here to download now</button>');
 		}
 		function thirdAddonReponse(){
-			document.write('<img src="thirdAddonImage.jpg">' + 'MINECRAFT BUT TERRARIA Addon free no virus' + '          ' + '<button type ="button" onclick="anyAddonClickResponse()">Click here to download now</button>');
+			document.write('<img src="thirdAddonImage.jpg">' + 'MINECRAFT BUT TERRARIA Addon free no virus' + '<button type ="button" onclick="anyAddonClickResponse()">Click here to download now</button>');
 		}
 		function fourthAddonReponse(){
-			document.write('<img src="fourthAddonImage.jpg">' + 'NEW FURNITURES ADDON ADDS 49304398 NEW FURINTURES BLOCKS free no virus' + '          ' + '<button type ="button" onclick="anyAddonClickResponse()">Click here to download now</button>');
+			document.write('<img src="fourthAddonImage.jpg">' + 'NEW FURNITURES ADDON ADDS 49304398 NEW FURINTURES BLOCKS free no virus' + '<button type ="button" onclick="anyAddonClickResponse()">Click here to download now</button>');
 		}
 		function fifthAddonReponse(){
-			document.write('<img src="fifthAddonImage.jpg">' + 'no virus addon 100' + '          ' + '<button type ="button" onclick="anyAddonClickResponse()">Click here to download now</button>');
+			document.write('<img src="fifthAddonImage.jpg">' + 'no virus addon 100' + '<button type ="button" onclick="anyAddonClickResponse()">Click here to download now</button>');
 		}
 		function sixthAddonReponse(){
-			document.write('<img src="sixthAddonImage.jpg">' + 'AETHER MOD IN MINECRAFT PE FREE DOWNLOAD' + '          ' + '<button type ="button" onclick="anyAddonClickResponse()">Click here to download now</button>');
+			document.write('<img src="sixthAddonImage.jpg">' + 'AETHER MOD IN MINECRAFT PE FREE DOWNLOAD' + '<button type ="button" onclick="anyAddonClickResponse()">Click here to download now</button>');
 		}
 		function anyAddonClickResponse(){
 			document.write('GET RICKROLLED LOL!' + '<img src="funnyOne.gif">' + '<img src="funnyTwo.gif">' + '<img src="funnyThree.gif">' + '<img src="funnyFour.gif">' + 'PLEASE GOD JUST MAKE A ALTERNATIVE TO MCPEDL PLEASE');
