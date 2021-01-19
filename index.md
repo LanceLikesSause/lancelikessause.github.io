@@ -34,7 +34,7 @@
 			document.write('<img src="sixthAddonImage.jpg">' + 'AETHER MOD IN MINECRAFT PE FREE DOWNLOAD' + '          ' + '<button type ="button" onclick="anyAddonClickResponse()">Click here to download now</button>');
 		}
 		function anyAddonClickResponse(){
-			document.write('GET RICKROLLED LOL!' + '<img src="funnyOne.gif">' + '<img src="funnyTwo.gif">' + '<img src="funnyThree.gif">' + '<img src="funnyFour.gif">');
+			document.write('GET RICKROLLED LOL!' + '<img src="funnyOne.gif">' + '<img src="funnyTwo.gif">' + '<img src="funnyThree.gif">' + '<img src="funnyFour.gif">' + 'PLEASE GOD JUST MAKE A ALTERNATIVE TO MCPEDL PLEASE');
 		}
 	</script>
 <html>
