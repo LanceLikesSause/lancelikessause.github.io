@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<h1>Minecraft (bedrock)  hellp addon website</h1>
+		<h1>Minecraft (bedrock) addon website</h1>
 	</head>
 	<body>
 	</body>
