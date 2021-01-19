@@ -4,9 +4,6 @@
 		<img src="titleImage.png">
 		<br>
 	</head>
-	<body onload="mainMenu()">
-	</body>
-	
 	<script>
 		function mainMenu(){
 			document.write('	<button type ="button" onclick="firstAddonReponse()">GUNS 3D 360 AK 420 FREE</button>
@@ -38,4 +35,6 @@
 			document.write('GET RICKROLLED LOL!' + '<img src="funnyOne.gif">' + '<img src="funnyTwo.gif">' + '<img src="funnyThree.gif">' + '<img src="funnyFour.gif">' + 'PLEASE GOD JUST MAKE A ALTERNATIVE TO MCPEDL PLEASE');
 		}
 	</script>
+	<body onload="mainMenu()">
+	</body>
 <html>
