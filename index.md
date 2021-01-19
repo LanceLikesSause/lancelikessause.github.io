@@ -16,7 +16,7 @@
 	
 	<script>
 		function firstAddonReponse(){
-			document.write('<img src="firstAddonImage.jpg">' + 'Guns Addon free no virus' + '          ' + '<button type ="button" onclick="anyAddonClickResponse()">Click here to download now</button>');
+			document.write('<img src="firstAddonImage.jpg">' + 'Guns Addon free no virus' + '<button type ="button" onclick="anyAddonClickResponse()">Click here to download now</button>');
 		}
 		function secondAddonReponse(){
 			document.write('<img src="secondAddonImage.jpg">' + 'Minecraft BUT EVERYTHING IS DIRT NOW Addon free no virus' + '<button type ="button" onclick="anyAddonClickResponse()">Click here to download now</button>');
