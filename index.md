@@ -2,6 +2,7 @@
 	<head>
 		<h1>Minecraft (bedrock) addon website </h1>
 		<img src="titleImage.png">
+		<br>
 	</head>
 	<body>
 	</body>
