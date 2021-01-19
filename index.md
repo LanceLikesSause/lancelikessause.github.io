@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<h1>Minecraft (bedrock) addon website</h1>
+		<h1>Minecraft (bedrock) addon website test</h1>
 	</head>
 	<body>
 	</body>
