@@ -15,7 +15,7 @@
 	<button type ="button" onclick="sixthAddonReponse()">AETHER MOD BUT IN MCPE</button>');
 		}
 		function firstAddonReponse(){
-			document.write('<button type ="button" onclick="mainMenu()">Go Back</button>' + '<img src="firstAddonImage.jpg">' + 'Guns Addon free no virus' + '<button type ="button" onclick="anyAddonClickResponse()">Click here to download now</button>');
+			document.write("<button type ="button" onclick="mainMenu()">Go Back</button>' + '<img src="firstAddonImage.jpg">' + 'Guns Addon free no virus' + '<button type ="button" onclick="anyAddonClickResponse()">Click here to download now</button>");
 		}
 		function secondAddonReponse(){
 			document.write('<img src="secondAddonImage.jpg">' + 'Minecraft BUT EVERYTHING IS DIRT NOW Addon free no virus' + '<button type ="button" onclick="anyAddonClickResponse()">Click here to download now</button>');
