@@ -6,16 +6,16 @@
 	</head>
 	<script type="text/javascript">
 		function mainMenu(){
-			document.write('
+			document.write("
 	<button type ="button" onclick="firstAddonReponse()">GUNS 3D 360 AK 420 FREE</button>
 	<button type ="button" onclick="secondAddonReponse()">MINECRAFT BUT ITS ALL DIRT BLOCK</button>
 	<button type ="button" onclick="thirdAddonReponse()">MINECRAFT BUT ITS TERRARIA</button>
 	<button type ="button" onclick="fourthAddonReponse()">93205 NEW FURNITURES</button>
 	<button type ="button" onclick="fifthAddonReponse()">NO VIRUS</button>
-	<button type ="button" onclick="sixthAddonReponse()">AETHER MOD BUT IN MCPE</button>');
+	<button type ="button" onclick="sixthAddonReponse()">AETHER MOD BUT IN MCPE</button>");
 		}
 		function firstAddonReponse(){
-			document.write("<button type ="button" onclick="mainMenu()">Go Back</button>' + '<img src="firstAddonImage.jpg">' + 'Guns Addon free no virus' + '<button type ="button" onclick="anyAddonClickResponse()">Click here to download now</button>");
+			document.write('<button type ="button" onclick="mainMenu()">Go Back</button>' + '<img src="firstAddonImage.jpg">' + 'Guns Addon free no virus' + '<button type ="button" onclick="anyAddonClickResponse()">Click here to download now</button>');
 		}
 		function secondAddonReponse(){
 			document.write('<img src="secondAddonImage.jpg">' + 'Minecraft BUT EVERYTHING IS DIRT NOW Addon free no virus' + '<button type ="button" onclick="anyAddonClickResponse()">Click here to download now</button>');
