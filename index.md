@@ -6,7 +6,8 @@
 	</head>
 	<script type="text/javascript">
 		function mainMenu(){
-			document.write('<button type ="button" onclick="firstAddonReponse()">GUNS 3D 360 AK 420 FREE</button>
+			document.write('
+	<button type ="button" onclick="firstAddonReponse()">GUNS 3D 360 AK 420 FREE</button>
 	<button type ="button" onclick="secondAddonReponse()">MINECRAFT BUT ITS ALL DIRT BLOCK</button>
 	<button type ="button" onclick="thirdAddonReponse()">MINECRAFT BUT ITS TERRARIA</button>
 	<button type ="button" onclick="fourthAddonReponse()">93205 NEW FURNITURES</button>
