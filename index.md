@@ -4,7 +4,7 @@
 		<img src="titleImage.png">
 		<br>
 	</head>
-	<script>
+	<script type="text/javascript">
 		function mainMenu(){
 			document.write('<button type ="button" onclick="firstAddonReponse()">GUNS 3D 360 AK 420 FREE</button>
 	<button type ="button" onclick="secondAddonReponse()">MINECRAFT BUT ITS ALL DIRT BLOCK</button>
