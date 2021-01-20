@@ -38,8 +38,8 @@
 		}
 		function anyAddonClickResponse(){
 			document.open();
-            document.write('<button type ="button" onclick="titleThing(),mainMenu()">Go Back</button>' + '<img src="firstAddonImage.jpg">' + 'Guns Addon free no virus' + '<button type ="button" onclick="anyAddonClickResponse()">Click here to download now</button>');
-            document.close();
+			document.write('GET RICKROLLED LOL!' + '<img src="funnyOne.gif">' + '<img src="funnyTwo.gif">' + '<img src="funnyThree.gif">' + '<img src="funnyFour.gif">');
+         	        document.close();
 		}
 	</script>
 	<body onload="titleThing(),mainMenu()">
