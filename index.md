@@ -1,13 +1,10 @@
 <html>
-	<head>
-		<h1>Minecraft (bedrock) addon website </h1>
-		<img src="titleImage.png">
-		<br>
-	</head>
 	<script type="text/javascript">
+    	function titleThing(){
+        	document.write('<head><h1>Minecraft (bedrock) addon website</h1><img src="titleImage.png"><br></head>');
+        }
 		function mainMenu(){
-			document.write('<button type ="button" onclick="firstAddonReponse()">GUNS 3D 360 AK 420 FREE</button>' +
-'		<button type ="button" onclick="secondAddonReponse()">MINECRAFT BUT 		ITS ALL DIRT BLOCK</button>' + '<button type ="button" onclick="thirdAddonReponse()">MINECRAFT BUT ITS TERRARIA</button>' +'<button type ="button" onclick="fourthAddonReponse()">93205 NEW 			FURNITURES</button>'+'<button type ="button" onclick="fifthAddonReponse()">NO VIRUS</button>'+'<button type ="button" onclick="sixthAddonReponse()">AETHER MOD BUT 		IN MCPE</button>');
+			document.write('<button type ="button" onclick="firstAddonReponse()">GUNS 3D 360 AK 420 FREE</button><button type ="button" onclick="secondAddonReponse()">MINECRAFT BUT ITS ALL DIRT BLOCK</button><button type ="button" onclick="thirdAddonReponse()">MINECRAFT BUT ITS TERRARIA</button><button type ="button" onclick="fourthAddonReponse()">93205 NEW FURNITURES</button><button type ="button" onclick="fifthAddonReponse()">NO VIRUS</button><button type ="button" onclick="sixthAddonReponse()">AETHER MOD BUT IN MCPE</button>');
 		}
 		function firstAddonReponse(){
 			document.write('<button type ="button" onclick="mainMenu()">Go Back</button>' + '<img src="firstAddonImage.jpg">' + 'Guns Addon free no virus' + '<button type ="button" onclick="anyAddonClickResponse()">Click here to download now</button>');
@@ -31,8 +28,9 @@
 			document.write('GET RICKROLLED LOL!' + '<img src="funnyOne.gif">' + '<img src="funnyTwo.gif">' + '<img src="funnyThree.gif">' + '<img src="funnyFour.gif">' + 'PLEASE GOD JUST MAKE A ALTERNATIVE TO MCPEDL PLEASE');
 		}
 	</script>
-	<body onload="mainMenu()">
+	<body onload="titleThing(),mainMenu()">
 	</body>
 <html>
+
 
 
