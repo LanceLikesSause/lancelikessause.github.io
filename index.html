@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Canvas Game</title>
+<h1 style="font-size:28px;"> Canvas Game<h1>
+<h3 style="font-size:23px;color:#870000;"> Cuillier Career Center <h3>
+<h3 style="font-size:23px;"> JavaScript Programming 2021 <h3>
+<style>
+#wrap_all {margin-top:20px; margin-bottom: 10px;}
+h1, h2, h3 {text-align: center;margin-top: 3px;}
+* { padding: 0; margin: 0; }
+canvas { background: #eee; display: block; margin: 10px auto;}
+</style>
+</head>
+<body>
+<canvas id="myCanvas" width="645" height="400"></canvas>
+<script>
+		var canvas = document.getElementById("myCanvas");
+		var renderContext = canvas.getContext("2d");
+		
+		var x = canvas.width/2;
+		var y = canvas.height-30;
+		var dx = 1;
+		var dy = -1;
+		var ballRadius = 5;
+		var ballColor = "red";
+		var paddleHeight = 10;
+		var paddleWidth = 180;
+		var paddleX = (canvas.width-paddleWidth) / 2;
+		var paddleSpeed = 5;
+		var rightPressed = false;
+		var leftPresssed = false;
+		var difCurve = 0.3;
+		var currentDif = 0;
+
+		function colorChooser(){
+			if (Math.floor(Math.random() * 2) == 0){
+				return ballColor = "blue";
+			}
+			else if ((Math.floor(Math.random() * 2) == 1)) {
+				return ballColor = "green";
+			}
+			else {
+				return ballColor = "red";
+			}
+				
+		}
+		function drawBall(){
+			renderContext.beginPath();
+			renderContext.arc(x, y, ballRadius, 0, Math.PI*2, false);
+			renderContext.fillStyle = ballColor;
+			renderContext.fill();
+			renderContext.closePath();
+		}
+		function drawPaddle () {
+			renderContext.beginPath();
+			renderContext.rect(paddleX, canvas.height-paddleHeight,paddleWidth, paddleHeight);
+			renderContext.fillStyle = "#0095DD";
+			renderContext.fill();
+			renderContext.closePath();
+		}
+		function drawUI () {
+		   renderContext.font = '20px serif';
+		   renderContext.fillStyle = "black";
+		   renderContext.fillText('Current Difficulty: ' + currentDif, 10, 50);
+		}
+		function draw(){
+			renderContext.clearRect(0,0,canvas.width,canvas.height);
+			drawBall();
+			drawPaddle();
+			drawUI();
+			x += dx;
+			y += dy;
+			if(x + dx > canvas.width-ballRadius  || x + dx <ballRadius){
+				dx = -dx;
+				ballColor = colorChooser();
+			}
+			
+			if (y + dy < ballRadius){
+				dy = -dy;
+			}
+			else if (y + dy > canvas.height-ballRadius){
+				if (x > paddleX && x < paddleX + paddleWidth){
+					dy = -dy+-difCurve; //difficulty curve
+					paddleWidth=paddleWidth-difCurve*4;
+					currentDif++;
+				}
+				else {
+					alert("GAME OVER\nYou made it to Difficulty Level " + currentDif + "!");
+					document.location.reload();
+					clearInterval(interval);
+				}
+			}
+			if(rightPressed){
+				paddleX += paddleSpeed;
+				if(paddleX+paddleWidth > canvas.width){
+					paddleX = canvas.width -  paddleWidth;
+				}
+			}
+			else if(leftPressed){
+				paddleX -= paddleSpeed;
+				if(paddleX <0){
+					paddleX = 0;
+				}
+			}
+		}
+		function keyUpHandler(event) {
+		if(event.key == "Right" || event.key == "ArrowRight"){
+		rightPressed = false;
+		}else if(event.key == "Left" || event.key == "ArrowLeft"){
+		leftPressed = false;
+		}
+		}
+		function keyDownHandler(event) {
+		if(event.key == "Right" || event.key == "ArrowRight"){
+		rightPressed = true;
+		}else if(event.key == "Left" || event.key == "ArrowLeft"){
+		leftPressed = true;
+		}
+		}
+		document.addEventListener("keydown", keyDownHandler, false);
+		document.addEventListener("keyup", keyUpHandler, false);
+		var interval = setInterval(draw, 10);
+		
+</script>
+<h2 style="font-size:23px;> by FirstName LastName <h2>
+</body>
+</html>
